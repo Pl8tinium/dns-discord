@@ -1,5 +1,10 @@
-- only private messages 
+one method that generates a link with a shortcode thats only valid for x amounts of time
 
-- take in a list of user id's and send them a string
+when user clicks on link -> bot checks if time period is okay, if not he disregards the conversation
 
--javascript/ ts
+if its okay the userId or chatId is saved in a database (mocked with a json) for future use
+
+its now possible to execute another method on the bot that sends notification message X to chatId array
+
+
+https://core.telegram.org/bots#deep-linking-example

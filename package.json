@@ -4,11 +4,13 @@
   "description": "",
   "main": "discordBot.js",
   "scripts": {
-    "start": "node discordBot.js"
+    "discord": "node discordBot.js",
+    "telegram": "node telegramBot.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "discord.js": "^13.6.0"
+    "discord.js": "^13.6.0",
+    "node-telegram-bot-api": "^0.56.0"
   }
 }
