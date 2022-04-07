@@ -1,0 +1,5 @@
+- only private messages 
+
+- take in a list of user id's and send them a string
+
+-javascript/ ts
